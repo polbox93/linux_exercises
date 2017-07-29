@@ -1,0 +1,22 @@
+ 1  mkdir si41
+ 2  cd si41
+ 3  touch sum.py
+ 4  atom sum.py
+ 5  mkdir program
+ 6  mv sum.py program
+ 7  ls
+ 8  cd program
+ 9  ls
+ 10  cd ..
+ 11  cp -r program program2
+ 12  cp -r program program3
+ 13  cp -r program program4
+ 14  ls
+ 15  touch runALL.sh
+ 16  atomrunALL.sh
+ 17  atom runALL.sh
+ 18  ls
+ 19  atom runALL.sh
+ 20  chmod +x runALL.sh
+ 21  ./runALL.sh
+ 22  history > exercise-pawel_pudlo.txt
